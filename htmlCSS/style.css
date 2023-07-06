@@ -1,0 +1,117 @@
+body {
+  background-color: #ffffff;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.blue {
+  color: blue;
+}
+.block {
+  display: block;
+}
+p.bold {
+  font-weight: bold;
+}
+p.inline {
+  display: inline;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.profileTitle {
+  margin-left: 10px;
+}
+.postAgo {
+  margin: 0;
+  color: #808080;
+}
+.threeDots {
+  width: 3%;
+  height: 3%;
+}
+.banner {
+  width: 100%;
+}
+
+.reviews {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.like {
+  display: flex;
+  align-item: center;
+  margin-right: 20px;
+}
+.iconLike {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.share {
+  display: flex;
+  align-item: center;
+  margin-right: 20px;
+}
+
+.comments {
+  background-color: #e8e8e8;
+}
+.oneComment {
+  display: flex;
+  align-items: center;
+}
+.dropdownIcon {
+  width: 10px;
+  margin-left: 10px;
+}
+.itemComments {
+  display: flex;
+  padding-bottom: 10px;
+}
+.reply {
+  display: flex;
+  align-items: center;
+}
+.reply > span {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.reply .flag {
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.addComment {
+  display: flex;
+}
+.postComment {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+.postComment > textarea {
+  width: 90%;
+}
+.postComment .submitComment {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  width: 20%;
+  margin-top: 15px;
+}
